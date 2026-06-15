@@ -1,0 +1,8 @@
+{
+  "name": "El Conector de la Digitalización",
+  "description": "Una aplicación web interactiva que funciona como panel de máster para el juego de cartas de digitalización.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
