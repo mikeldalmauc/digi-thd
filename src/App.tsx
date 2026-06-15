@@ -9,8 +9,11 @@ import HandView from './pages/HandView';
 import CardDetail from './pages/CardDetail';
 
 export default function App() {
+  // Get the base path from the current URL
+  const basename = import.meta.env.BASE_URL || '/';
+  
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={basename}>
       <div className="flex flex-col min-h-screen bg-slate-900 text-slate-200">
         <Routes>
           <Route path="/" element={<MasterPanel />} />
