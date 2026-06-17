@@ -3,9 +3,11 @@ import { useParams } from 'react-router-dom';
 import { getCardById } from '../data';
 import { CardItem } from '../components/Card';
 import { ShieldAlert, AlertTriangle } from 'lucide-react';
+import { useLanguage } from '../contexts/LanguageContext';
 
 export default function CardDetail() {
   const { id } = useParams<{ id: string }>();
+  const { t, language } = useLanguage();
   const [underAttack, setUnderAttack] = useState(false);
   
   if (!id) return null;
@@ -15,7 +17,7 @@ export default function CardDetail() {
   if (!card) {
     return (
       <div className="min-h-screen flex items-center justify-center">
-        <p className="text-slate-500 font-medium">Carta no encontrada.</p>
+        <p className="text-slate-500 font-medium">{t('cardNotFound')}</p>
       </div>
     );
   }
@@ -51,7 +53,7 @@ export default function CardDetail() {
               }`}
             >
               {underAttack ? <AlertTriangle size={24} className="animate-pulse" /> : <ShieldAlert size={24} />}
-              {underAttack ? 'SISTEMA COMPROMETIDO - RESTAURAR' : 'LANZAR CIBERATAQUE'}
+              {underAttack ? t('systemCompromised') : t('cyberAttack')}
             </button>
           </div>
         )}

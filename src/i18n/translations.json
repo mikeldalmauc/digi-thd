@@ -1,0 +1,398 @@
+{
+  "es": {
+    "appTitle": "El Conector de la Digitalización",
+    "appSubtitle": "Panel de Gestión Educativa",
+    "handLabel": "Mano:",
+    "handSize": "Tamaño de mano",
+    "generateHand": "Generar Mano",
+    "resetDeck": "Reiniciar Mazo",
+    "viewHand": "Ver Mano",
+    "messages": {
+      "deckReset": "Mazo reiniciado correctamente.",
+      "deckExhausted": "Mazo agotado. Por favor, reinicie el mazo.",
+      "notEnoughCards": "Solo quedan {count} cartas en el mazo.",
+      "handGenerated": "Nueva mano generada ({count} cartas)."
+    },
+    "handViewTitle": "Mano en Juego",
+    "handViewSubtitle": "Visualización de las cartas activas de la sesión.",
+    "noCards": "No hay cartas para mostrar.",
+    "cardNotFound": "Carta no encontrada.",
+    "cyberAttack": "LANZAR CIBERATAQUE",
+    "systemCompromised": "SISTEMA COMPROMETIDO - RESTAURAR",
+    "infoTechnical": "INFO TÉCNICA",
+    "hideInfo": "OCULTAR INFO",
+    "thdLink": "THD_LINK:",
+    "thdDeck": "Mazo THD (Tecnologías)",
+    "active": "ACTIVAS",
+    "realCases": "Casos Reales (Mano Actual)",
+    "noCardsInHand": "No hay cartas en la mano. Genera una nueva.",
+    "designedFor": "Diseñado para uso individual o pequeños grupos. Contenido técnico verificado.",
+    "cardsInDeck": "Cartas en Mazo",
+    "sessionStatus": "Estado Sesión",
+    "syncedLocalStorage": "Sincronizado LocalStorage",
+    "categories": {
+      "industria": "Industria",
+      "sanidad": "Sanidad",
+      "infraestructura": "Infraestructura",
+      "educacion": "Educación",
+      "agricultura": "Agricultura",
+      "energia": "Energía",
+      "transporte": "Transporte",
+      "finanzas": "Finanzas",
+      "salud": "Salud",
+      "ciudad": "Ciudad",
+      "entretenimiento": "Entretenimiento",
+      "comercio": "Comercio",
+      "servicios": "Servicios",
+      "emergencias": "Emergencias",
+      "aeronautica": "Aeronáutica",
+      "diseno": "Diseño"
+    },
+    "thd": {
+      "thd-1": {
+        "title": "Gemelo Digital",
+        "description": "Réplica virtual exacta de un producto o sistema físico que se alimenta de datos de sensores en tiempo real para simular comportamientos."
+      },
+      "thd-2": {
+        "title": "Blockchain",
+        "description": "Base de datos descentralizada e inmutable donde la información se registra en bloques cifrados y requiere consenso para ser modificada, garantizando trazabilidad y confianza."
+      },
+      "thd-3": {
+        "title": "Internet de las Cosas (IoT)",
+        "description": "Red de objetos físicos con sensores y conectividad que recogen y envían datos por internet para monitorizar y optimizar procesos."
+      },
+      "thd-4": {
+        "title": "Inteligencia Artificial (IA)",
+        "description": "Sistemas informáticos que aprenden de datos (Machine Learning) para realizar tareas como reconocimiento de patrones, toma de decisiones o predicciones."
+      },
+      "thd-5": {
+        "title": "Fabricación Aditiva",
+        "description": "Proceso de construcción de objetos físicos añadiendo material capa a capa a partir de un diseño digital tridimensional, reduciendo desperdicios."
+      },
+      "thd-6": {
+        "title": "Edge Computing",
+        "description": "Procesamiento de datos en el \"borde\" (cerca de la fuente) para reducir la latencia, ahorrar ancho de banda y permitir el funcionamiento sin internet."
+      }
+    },
+    "cases": {
+      "c-1-1": {
+        "title": "Réplica de Línea de Montaje",
+        "description": "Réplica de línea de montaje industrial."
+      },
+      "c-1-2": {
+        "title": "Simulación Quirúrgica",
+        "description": "Simulación de cirugía compleja."
+      },
+      "c-1-3": {
+        "title": "Virtual Commissioning",
+        "description": "Virtual Commissioning (puesta en marcha virtual)."
+      },
+      "c-1-4": {
+        "title": "Mantenimiento Predictivo",
+        "description": "Mantenimiento predictivo de puentes."
+      },
+      "c-1-5": {
+        "title": "Formación de Riesgos",
+        "description": "Formación en entornos peligrosos simulados."
+      },
+      "c-2-1": {
+        "title": "Trazabilidad Alimentaria",
+        "description": "Trazabilidad alimentaria con código QR."
+      },
+      "c-2-2": {
+        "title": "Certificados Renovables",
+        "description": "Certificados de energía 100% renovable."
+      },
+      "c-2-3": {
+        "title": "Historial de Aviones",
+        "description": "Historial inmutable de mantenimiento de aviones."
+      },
+      "c-2-4": {
+        "title": "Contratos Inteligentes",
+        "description": "Contratos inteligentes (Smart Contracts) para pagos automáticos."
+      },
+      "c-2-5": {
+        "title": "Verificación de Títulos",
+        "description": "Verificación segura de títulos académicos."
+      },
+      "c-3-1": {
+        "title": "Vallas Virtuales",
+        "description": "Vallas virtuales para ganado con GPS."
+      },
+      "c-3-2": {
+        "title": "Riego con Sensores",
+        "description": "Sensores de humedad para riego automático."
+      },
+      "c-3-3": {
+        "title": "Monitorización UCI",
+        "description": "Monitorización constante de constantes vitales en UCI."
+      },
+      "c-3-4": {
+        "title": "Rendimiento Deportivo",
+        "description": "Seguimiento de rendimiento deportivo con relojes inteligentes."
+      },
+      "c-3-5": {
+        "title": "Control de Contenedores",
+        "description": "Control de llenado de contenedores urbanos."
+      },
+      "c-4-1": {
+        "title": "Recomendaciones Streaming",
+        "description": "Recomendaciones personalizadas en plataformas de streaming."
+      },
+      "c-4-2": {
+        "title": "Diagnóstico Tumoral",
+        "description": "Diagnóstico de tumores por visión artificial."
+      },
+      "c-4-3": {
+        "title": "Chatbots de Atención",
+        "description": "Chatbots de atención al cliente."
+      },
+      "c-4-4": {
+        "title": "Detección de Defectos",
+        "description": "Detección automática de defectos de calidad en fábrica."
+      },
+      "c-4-5": {
+        "title": "Análisis de Riesgos",
+        "description": "Análisis de riesgos financieros y detección de fraudes."
+      },
+      "c-5-1": {
+        "title": "Prótesis a Medida",
+        "description": "Prótesis e implantes médicos a medida."
+      },
+      "c-5-2": {
+        "title": "Piezas Aeronáuticas",
+        "description": "Piezas de motor aeronáutico con canales internos ligeros."
+      },
+      "c-5-3": {
+        "title": "Almacén Digital",
+        "description": "Almacén digital de repuestos antiguos para impresión bajo demanda."
+      },
+      "c-5-4": {
+        "title": "Monturas Personalizadas",
+        "description": "Monturas de gafas personalizadas."
+      },
+      "c-5-5": {
+        "title": "Prototipado Nocturno",
+        "description": "Prototipado rápido de productos en una noche."
+      },
+      "c-6-1": {
+        "title": "Dron de Rescate",
+        "description": "Dron de rescate que procesa imágenes localmente."
+      },
+      "c-6-2": {
+        "title": "Frenado de Emergencia",
+        "description": "Frenado de emergencia en vehículos autónomos."
+      },
+      "c-6-3": {
+        "title": "Control por Visión",
+        "description": "Control de calidad por visión artificial en la propia cámara."
+      },
+      "c-6-4": {
+        "title": "Riego Sin Cobertura",
+        "description": "Riego automático en zonas rurales sin cobertura."
+      },
+      "c-6-5": {
+        "title": "Parada de Seguridad",
+        "description": "Parada instantánea de seguridad en brazos robóticos colaborativos."
+      }
+    }
+  },
+  "eu": {
+    "appTitle": "Digitalizazioaren Konektorea",
+    "appSubtitle": "Hezkuntza Kudeaketako Panela",
+    "handLabel": "Eskua:",
+    "handSize": "Eskuaren tamaina",
+    "generateHand": "Eskua Sortu",
+    "resetDeck": "Sorta Berrezarri",
+    "viewHand": "Eskua Ikusi",
+    "messages": {
+      "deckReset": "Sorta behar bezala berrezarri da.",
+      "deckExhausted": "Sorta agortuta dago. Mesedez, berrezarri sorta.",
+      "notEnoughCards": "Sortan {count} txartel baino ez dira geratzen.",
+      "handGenerated": "Esku berria sortu da ({count} txartel)."
+    },
+    "handViewTitle": "Jokoan Dagoen Eskua",
+    "handViewSubtitle": "Saioko txartel aktiboen ikuspegia.",
+    "noCards": "Ez dago txartelik erakusteko.",
+    "cardNotFound": "Txartela ez da aurkitu.",
+    "cyberAttack": "ZIBERERASOA ABIARAZI",
+    "systemCompromised": "SISTEMA ARRISKUAN - BERREZARRI",
+    "infoTechnical": "INFO TEKNIKOA",
+    "hideInfo": "INFO EZKUTATU",
+    "thdLink": "THD_LOTURA:",
+    "thdDeck": "THD Sorta (Teknologiak)",
+    "active": "AKTIBOAK",
+    "realCases": "Kasu Errealak (Uneko Eskua)",
+    "noCardsInHand": "Ez dago txartelik eskuan. Sortu berri bat.",
+    "designedFor": "Banakako erabilerarako edo talde txikientzat diseinatua. Eduki tekniko egiaztatua.",
+    "cardsInDeck": "Sortako Txartelak",
+    "sessionStatus": "Saioaren Egoera",
+    "syncedLocalStorage": "LocalStorage sinkronizatuta",
+    "categories": {
+      "industria": "Industria",
+      "sanidad": "Osasuna",
+      "infraestructura": "Azpiegiturak",
+      "educacion": "Hezkuntza",
+      "agricultura": "Nekazaritza",
+      "energia": "Energia",
+      "transporte": "Garraioa",
+      "finanzas": "Finantzak",
+      "salud": "Osasungintza",
+      "ciudad": "Hiria",
+      "entretenimiento": "Aisialdia",
+      "comercio": "Merkataritza",
+      "servicios": "Zerbitzuak",
+      "emergencias": "Larrialdiak",
+      "aeronautica": "Aeronautika",
+      "diseno": "Diseinua"
+    },
+    "thd": {
+      "thd-1": {
+        "title": "Biki Digitala",
+        "description": "Produktu edo sistema fisiko baten erreplika birtual zehatza, denbora errealean sentsoreen datuez elikatzen dena portaerak simulatzeko."
+      },
+      "thd-2": {
+        "title": "Blockchain",
+        "description": "Datu-base deszentralizatu eta aldaezina; bertan, informazioa bloke zifratuetan erregistratzen da eta aldatzeko adostasuna eskatzen du, trazabilitatea eta konfiantza bermatuz."
+      },
+      "thd-3": {
+        "title": "Gauzen Interneta (IoT)",
+        "description": "Sentsoreak eta konektibitatea dituzten objektu fisikoen sarea, prozesuak monitorizatu eta optimizatzeko datuak bildu eta internet bidez bidaltzen dituztenak."
+      },
+      "thd-4": {
+        "title": "Adimen Artifiziala (IA)",
+        "description": "Datuetatik ikasten duten sistema informatikoak (Machine Learning), patroien ezagutza, erabakiak hartzea edo aurreikuspenak bezalako zereginak burutzeko."
+      },
+      "thd-5": {
+        "title": "Fabrikazio Aditiboa",
+        "description": "Diseinu digital tridimentsional batetik abiatuta materiala geruzaz geruza gehituz objektu fisikoak eraikitzeko prozesua, hondakinak murriztuz."
+      },
+      "thd-6": {
+        "title": "Edge Computing",
+        "description": "Datuen prozesamendua sarearen \"ertzean\" (iturburutik gertu), latentzia murrizteko, banda-zabalera aurrezteko eta internet gabe funtzionatzea ahalbidetzeko."
+      }
+    },
+    "cases": {
+      "c-1-1": {
+        "title": "Muntatze-lerroaren Erreplika",
+        "description": "Industriako muntatze-lerroaren erreplika."
+      },
+      "c-1-2": {
+        "title": "Kirurgia-simulazioa",
+        "description": "Kirurgia konplexuaren simulazioa."
+      },
+      "c-1-3": {
+        "title": "Virtual Commissioning",
+        "description": "Virtual Commissioning (abian jartze birtuala)."
+      },
+      "c-1-4": {
+        "title": "Mantenimendu Iragarlea",
+        "description": "Zubien mantenimendu iragarlea."
+      },
+      "c-1-5": {
+        "title": "Arrisku-prestakuntza",
+        "description": "Prestakuntza ingurune arriskutsu simulatuetan."
+      },
+      "c-2-1": {
+        "title": "Elikagaien Trazabilitatea",
+        "description": "Elikagaien trazabilitatea QR kode bidez."
+      },
+      "c-2-2": {
+        "title": "Ziurtagiri Berriztagarriak",
+        "description": "%100 energia berriztagarriaren ziurtagiriak."
+      },
+      "c-2-3": {
+        "title": "Hegazkinen Historiala",
+        "description": "Hegazkinen mantentze-lanen historial aldaezina."
+      },
+      "c-2-4": {
+        "title": "Kontratu Adimentsuak",
+        "description": "Kontratu adimentsuak (Smart Contracts) ordainketa automatikoetarako."
+      },
+      "c-2-5": {
+        "title": "Tituluen Egiaztapena",
+        "description": "Titulu akademikoen egiaztapen segurua."
+      },
+      "c-3-1": {
+        "title": "Hesi Birtualak",
+        "description": "Hesi birtualak abereentzat GPS bidez."
+      },
+      "c-3-2": {
+        "title": "Ureztatzea Sentsoreekin",
+        "description": "Hezetasun-sentsoreak ureztatze automatikorako."
+      },
+      "c-3-3": {
+        "title": "ZIU Monitorizazioa",
+        "description": "Bizi-konstanteen etengabeko monitorizazioa ZIUn."
+      },
+      "c-3-4": {
+        "title": "Kirol Errendimendua",
+        "description": "Kirol errendimenduaren jarraipena erloju adimentsuekin."
+      },
+      "c-3-5": {
+        "title": "Edukiontzien Kontrola",
+        "description": "Hiri-edukiontzien betetze-mailaren kontrola."
+      },
+      "c-4-1": {
+        "title": "Streaming Gomendioak",
+        "description": "Gomendio pertsonalizatuak streaming plataformetan."
+      },
+      "c-4-2": {
+        "title": "Tumoreen Diagnostikoa",
+        "description": "Tumoreen diagnostikoa ikusmen artifizial bidez."
+      },
+      "c-4-3": {
+        "title": "Arretarako Txatbotak",
+        "description": "Bezeroentzako arretarako txatbotak."
+      },
+      "c-4-4": {
+        "title": "Akatsen Detekzioa",
+        "description": "Kalitate-akatsen detekzio automatikoa fabrikan."
+      },
+      "c-4-5": {
+        "title": "Arriskuen Analisia",
+        "description": "Finantza-arriskuen analisia eta iruzurren detekzioa."
+      },
+      "c-5-1": {
+        "title": "Protesiak Neurrira",
+        "description": "Protesi eta inplante medikoak neurrira."
+      },
+      "c-5-2": {
+        "title": "Pieza Aeronautikoak",
+        "description": "Motor aeronautikoaren piezak, barne-kanal arinekin."
+      },
+      "c-5-3": {
+        "title": "Biltegi Digitala",
+        "description": "Ordezko pieza zaharren biltegi digitala, eskariaren arabera inprimatzeko."
+      },
+      "c-5-4": {
+        "title": "Muntura Pertsonalizatuak",
+        "description": "Betaurrekoen muntura pertsonalizatuak."
+      },
+      "c-5-5": {
+        "title": "Prototipatze Azkarra",
+        "description": "Produktuen prototipatze azkarra gau batean."
+      },
+      "c-6-1": {
+        "title": "Erreskate Drona",
+        "description": "Irudiak lokalean prozesatzen dituen erreskate drona."
+      },
+      "c-6-2": {
+        "title": "Larrialdiko Balaztatzea",
+        "description": "Larrialdiko balaztatzea ibilgailu autonomoetan."
+      },
+      "c-6-3": {
+        "title": "Ikusmen Bidezko Kontrola",
+        "description": "Kalitate-kontrola ikusmen artifizial bidez kamera berean."
+      },
+      "c-6-4": {
+        "title": "Ureztatzea Estaldurarik Gabe",
+        "description": "Ureztatze automatikoa estaldurarik gabeko landa-eremuetan."
+      },
+      "c-6-5": {
+        "title": "Segurtasun-geldialdia",
+        "description": "Berehalako segurtasun-geldialdia beso robotiko kolaboratiboetan."
+      }
+    }
+  }
+}
