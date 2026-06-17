@@ -76,12 +76,12 @@ export default function MasterPanel() {
     if (currentHand.length === 0) return;
     const ids = currentHand.map(c => c.id).join(',');
     const baseUrl = import.meta.env.BASE_URL || '/';
-    window.open(`${baseUrl}hand?ids=${ids}`, '_blank');
+    window.open(`${baseUrl}#hand?ids=${ids}`, '_blank');
   };
 
   const openCardInNewTab = (id: string) => {
     const baseUrl = import.meta.env.BASE_URL || '/';
-    window.open(`${baseUrl}card/${id}`, '_blank');
+    window.open(`${baseUrl}#card/${id}`, '_blank');
   };
 
   return (
